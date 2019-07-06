@@ -3,7 +3,6 @@
     "pages/home/home",
     "pages/index/index",
     "pages/logs/logs",
-   
     "pages/mine/mine",
     "pages/project/project"
   ],
@@ -11,31 +10,31 @@
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "white"
   },
   "tabBar": {
     "color": "#000",
-    "selectedColor": "#1296db",
-    "backgroundColor": "",
-    "borderStyle": "white",
+    "selectedColor": "#1afa29",
+    "backgroundColor": "white",
+    "borderStyle": "black",
     "list": [
       {
         "pagePath": "pages/home/home",
         "text": "首页",
-        "iconPath": "",
-        "selectedIconPath": ""
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home1.png"
       },
       {
         "pagePath": "pages/project/project",
         "text": "健身计划",
-        "iconPath": "",
-        "selectedIconPath": ""
+        "iconPath": "images/huo.png",
+        "selectedIconPath": "images/huo1.png"
       },
       {
         "pagePath": "pages/mine/mine",
         "text": "个人中心",
-        "iconPath": "",
-        "selectedIconPath": ""
+        "iconPath": "images/my.png",
+        "selectedIconPath": "images/my1.png"
       }
     ]
   },  

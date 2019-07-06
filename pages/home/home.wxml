@@ -1,2 +1,44 @@
 <!--pages/home/home.wxml-->
-<text>pages/home/home.wxml</text>
+<!-- <text>pages/home/home.wxml</text> -->
+<swiper indicator-dots="{{true}}"
+  autoplay="{{true}}" interval="{{3000}}" duration="{{1000}}"
+  style="width:100%;height:200px"
+  >
+  <block wx:for="{{imgUrls}}" wx:key="{{index}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="100%" height="220"/>
+    </swiper-item>
+  </block>
+</swiper>
+<view>
+    <view class="q_shouye y1">
+      <text class="q_text1">动作库</text>
+      <icon class="iconfont icon-huo q_icon1"></icon>
+      <text class="q_text2">Action</text>
+    </view>
+    <view class="q_shouye y2">
+      <text class="q_text1">文章</text>
+      <icon class="iconfont icon-wenzhang q_icon1"></icon>
+      <text class="q_text2">Article</text>
+    </view>
+    <view class="q_shouye y3">
+      <text class="q_text1">视频</text>
+      <icon class="iconfont icon-yk_shipin q_icon1"></icon>
+      <text class="q_text2">Video</text>
+    </view>
+    <view class="q_shouye y4">
+      <text class="q_text1">图片</text>
+      <icon class="iconfont icon-tupian q_icon1"></icon>
+      <text class="q_text2">Picture</text>
+    </view>
+    <view class="q_shouye y5">
+      <text class="q_text1">瑜伽</text>
+      <icon class="iconfont icon-liebiao q_icon1"></icon>
+      <text class="q_text2">Action</text>
+    </view>
+    <view class="q_shouye y6">
+      <text class="q_text1">入门手册</text>
+      <icon class="iconfont icon-wenjianjia q_icon1"></icon>
+      <text class="q_text2">Readme</text>
+    </view>
+</view>

@@ -1,1 +1,58 @@
 /* pages/home/home.wxss */
+.q_shouye{
+  width: 41%;
+  height: 80px;
+  float: left;
+  margin: 6% 0 0 6%;
+  position: relative;
+  border-radius: 6px;
+  color: #fff;
+  box-shadow: 3px 5px 5px #d0caca;
+}
+
+.slide-image{
+  width: 100%;
+}
+
+.q_icon1{
+  position: absolute;
+  top: 7px;
+  right: 10px;
+  font-size: 26px;
+}
+
+.q_text1{
+  position: absolute;
+  top: 10px;
+  left:10px;
+}
+
+.q_text2{
+  position: absolute;
+  bottom: 10px;
+  left:10px;
+}
+
+.y1{
+  background-color: #a5673f;
+}
+
+.y2{
+  background-color: #39b54a;
+}
+
+.y3{
+  background-color: #9c26b0;
+}
+
+.y4{
+  background-color: #8dc63f;
+}
+
+.y5{
+  background-color: #8799a3;
+}
+
+.y6{
+  background-color: #1cbbb4;
+}
